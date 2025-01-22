@@ -54,16 +54,17 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
+    font-size: 4rem;
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
+    text-align: center;
 }
 
 .section-title {
     font-family: "Inter", serif;
-    font-size: 36px;
+    font-size: 2.5rem;
     font-weight: 700;
     color: var(--color-primary);
     margin: 10px 0;
@@ -74,7 +75,7 @@ body {
 .input-wrapper {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     margin-top: 20px;
 }
@@ -84,7 +85,7 @@ body {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .button-container {
@@ -96,7 +97,7 @@ body {
 .input-title {
     flex: 1;
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 1rem;
     border: 2px solid #333;
     border-right: none;
     border-radius: 25px 0 0 25px;
@@ -108,7 +109,7 @@ body {
 button {
     padding: 15px 30px;
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     border: 2px solid #000;
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -130,14 +131,14 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
     color: #05DF05;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
     text-align: center;
 }
@@ -150,7 +151,7 @@ ul {
     padding: 10px 40px;
     color: var(--color-white);
     background-color: var(--color-button);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .button-draw img {
@@ -159,4 +160,54 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .input-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .input-title,
+    .button-add {
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    .button-draw img {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.875rem;
+        padding: 10px 20px;
+    }
+
+    .input-title {
+        font-size: 0.875rem;
+        padding: 8px 10px;
+    }
+
+    .button-draw {
+        padding: 8px 20px;
+    }
 }
