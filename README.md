@@ -10,7 +10,7 @@ Este proyecto consiste en una aplicación interactiva para realizar sorteos de "
 knndy18-amigo-secreto/
 ├── app.js          # Lógica principal de la aplicación
 ├── index.html      # Estructura base del sitio web
-├── style.css       # Estilos para la interfaz (opcional: personalízalo a tu gusto)
+├── style.css       # Estilos para la interfaz 
 └── assets/         # Recursos estáticos (imágenes y otros medios)
 ```
 
