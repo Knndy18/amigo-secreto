@@ -65,6 +65,6 @@ Este proyecto se encuentra bajo la licencia MIT. Puedes consultar el archivo [LI
 ## Contacto
 Si tienes alguna duda o sugerencia, no dudes en ponerte en contacto:
 - **Autor:** kennedy chirinos
-- **Correo:** ....
+- **Correo:** kchirinosr@unsa.edu.pe
 - **GitHub:** [github.com/knndy18](https://github.com/Knndy18)
 
