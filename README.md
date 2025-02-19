@@ -35,11 +35,11 @@ knndy18-amigo-secreto/
 ## Instrucciones de Uso
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/<tu-usuario>/knndy18-amigo-secreto.git
+   git clone "url"
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd knndy18-amigo-secreto
+   cd tu-carpeta
    ```
 3. Abre el archivo `index.html` en tu navegador favorito.
 4. Ingresa los nombres de los participantes y presiona el botón "Añadir".
