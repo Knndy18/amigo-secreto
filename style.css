@@ -133,7 +133,8 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 1.125rem;
     margin: 20px 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
 }
 li{
     list-style-type: none;
