@@ -35,7 +35,7 @@ knndy18-amigo-secreto/
 ## Instrucciones de Uso
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone "url"
+   git clone (https://github.com/Knndy18/amigo-secreto.git)
    ```
 2. Navega al directorio del proyecto:
    ```bash
