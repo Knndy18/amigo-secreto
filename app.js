@@ -4,6 +4,9 @@ var integrantes=[];
 //usamos el .value para obtener el valor del input
 function agregarAmigo(){
 let nombre=document.querySelector('input').value;
+let resultSorteo=document.getElementById('resultado');
+    //limpiar el resultado del sorteo
+    resultSorteo.innerHTML=" ";
 
    //validamos que haya ingresado un nombre y que no se repita     
     if(integrantes.includes(nombre)||nombre==""){
