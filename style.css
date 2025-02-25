@@ -1,5 +1,5 @@
 :root {
-    --color-primary:#48A6A7;
+    --color-primary: #48A6A7;
     --color-secondary: #F2EFE7;
     --color-tertiary: #C4C4C4;
     --color-button: #9ACBD0;
@@ -17,7 +17,7 @@
 
 body {
     height: 100vh;
-    background:linear-gradient(var(--color-primary),30%,var(--color-secondary));
+    background: linear-gradient(var(--color-primary), 30%, var(--color-secondary));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@ body {
 }
 
 .section-title {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--color-primary);
@@ -127,32 +127,40 @@ button {
 }
 
 /* Listas */
-ul {
+.listaAmigos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 1.125rem;
     margin: 20px 0;
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
 }
-li{
+
+li {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 1.125rem;
     padding: 10px;
-    border: #444444;
-    border-style: solid;
+    border: 1px solid #444444;
     border-radius: 15px;
-    margin: 10px 10px;
+    margin: 10px;
     background-color: #9acbd02f;
 }
 
+span {
+    font-weight: bold;
+    color: var(--color-primary);
+    align-items: center;
+}
+
 .result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 1.375rem;
+    margin: 15px;
+    padding: 15px;
+    color: #27667B;
+    font-size: 3rem;
     font-weight: bold;
     text-align: center;
 }
